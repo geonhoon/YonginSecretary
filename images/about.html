@@ -1,6 +1,78 @@
 <head>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="cursorr.css">
 </head>
 <body>
+  <div class="cursorr"></div>
+  <script>
+            const cursorr = document.querySelector('.cursorr');
 
+document.addEventListener('mousemove', e => {
+    cursorr.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursorr.classList.remove("expand");
+    }, 500)
+})
+  </script>
+    <header id="showcase">
+      <h1><span><span><span></span>Welcome To <br> My Yongin Secretary Site</h1>
+    </header>
+    
+    <div id="content" class="container">
+       
+  Yongin Secretary site is like an artificial intelligence program 
+      <br>called Jarvis created by Iron Man in Marvel.
+      <br>It is such a secretary program site that informs you of your schedule, weather, and enables direct communication.
+    </div>
+    <center>
+      
+        <table cellspacing="160">
+            <br>
+          <tr>
+            <th>
+              <div class="home">
+                <a class="directory" href="index.html">
+                  Home
+                </a>
+              </div>
+            </th>
+            <th>
+              <div class="login">
+                <a class="directory" href="login.html">
+                  Login
+                </a>
+              </div>
+            </th>
+            <th>
+              <div class="developer">
+                <a class="directory" href="developer.html">
+                  Developer
+                </a>
+              </div>
+            </th>
+          
+  </body>
+</html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style4.css">
+  <title>Smoke</title>
+</head>
+<body>
+  <section>
+      <video src="smoke.mp4" autoplay muted></video>
+      <h1>
+        
+      </h1>
+  </section>
 </body>
+</html>
+

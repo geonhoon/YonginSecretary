@@ -8,12 +8,13 @@ html {
     background: black;
   }
   
+ 
   .login-box {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     padding: 40px;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
@@ -60,13 +61,13 @@ html {
     top: -20px;
     left: 0;
     color: #03e9f4;
-    font-size: 12px;
+    font-size: 15px;
   }
   
   .login-box form a {
     position:center;
     display: inline-block;
-    padding: 10px 120px;
+    padding: 10px 10px;
     color: #03e9f4;
     font-size: 16px;
     font-weight: bolder;
@@ -74,8 +75,9 @@ html {
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
+    margin-top: 5px;
+    letter-spacing: 4px;
+    margin-left:-6px;
   }
   
   .login-box a:hover {
@@ -170,14 +172,15 @@ html {
 
   .container2 {
     background:black;
-    padding:80px 0;
+    padding:40px 0;
+    
   }
 
   p {
     text-align:center;
     font-size: 30px;
     font-weight: bolder;
-    margin: 400px;
+    margin: -500px;
     padding: 0;
     color:white;
   }
@@ -230,4 +233,36 @@ html {
     box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
   }
   
+  
+
+h3{
+  color:#fff;
+  position: absolute;
+  margin-top: 39px;
+  left: 120px;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+
+  .social-login {	
+    position:relative;
+    height: 54px;
+    width: 16px;
+    text-align: center;
+    bottom: -50px;
+    right: -210px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: bottom;
+    display:table-row;
+    
+   
+  }
+  
+ 
+  
+
+
   

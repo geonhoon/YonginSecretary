@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="cursor.css">
+    <title>용인비서, 용비</title>
+</head>
+<body>
+  <div class="cursor"></div>
+  <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+  </script>
+    <div class="Menu">
+      <div class="font">
+        <h1 class><a href="index.html">YS</a></h1>
+        <span>Yongin Secretary</span>
+      </div>
+        <ul>
+          <il><a href="index.html">Home</a></il>
+          <il><a href="about.html">About</a></il>
+          <il><a href="login.html">Login</a></il>
+          <il><a href="register.html">SignUp</a></il>
+        </ul>
+      </div>
+

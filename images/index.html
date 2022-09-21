@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursor.css">
+    
 </head>
 <body>
+  <div class="cursor"></div>
+  <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - -5)+"px; left: "+(e.pageX - -5)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+  </script>
+
+  
   <div class="Menu">
-    <h1 class="Name"><a href="#">용비</a></h1>
+    <div class="font">
+      <h1 class><a href="index.html">YS</a></h1>
+      <span>Yongin Secretary</span>
+    </div>
+    
     <ul>
       <il><a href="index.html">Home</a></il>
       <il><a href="about.html">About</a></il>
@@ -13,34 +37,43 @@
     </ul>
   </div>
   
-  <div class="body">
-    <div class="text sideleft">
-      <p>당신의 계획!<br>여기에 메모하고 관리하세요!<br><em></em><br><br>
-        <button1 style="border: 3px solid white;" id="btn" onclick="window.open('todo.html');">TODO</button2></p>
-    </div>
-    <div class="text center">
-      <p>언제나<br>당신의 비서가 함께합니다!<br><em></em><br><br>
-        <button2 style="border: 3px solid white;" id="btn" onclick="window.open('chatbot.html');">CHATBOT</button2></p>
-    </div>
-    <div class="text sideright">
-      <p>오늘의 날씨<br>한눈에 확인하세요!<br><em></em><br><br>
-        <button3 style="border: 3px solid white;" id="btn" onclick="window.open('weather.html');">WEATHER</button2></p>
-    </div>
-  </div>
+  <figure class="snip1336">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87" />
+    <figcaption>
+      <img src="./KakaoTalk_20220916_194206696_01.jpg" alt="profile-sample4" class="profile" />
+      <h2>TODO<span><br></span></h2>
+      <p>당신의 할일을 이곳에 메모하고 <br>관리하세요! </p>
+      <a href="todo.html" class="start">Start</a>
+      <a href="#" class="info">More Info</a>
+    </figcaption>
+  </figure>
+  <figure class="snip1336 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg" alt="sample74" />
+    <figcaption>
+      <img src="./KakaoTalk_20220916_194206696_02.jpg" alt="profile-sample2" class="profile" />
+      <h2>CHATBOT<span><br></span></h2>
+      <p>언제나 당신의 비서가 함께합니다. <br>당신의 비서와 채팅을 통해 대화하세요!</p>
+      <a href="chatbot.html" class="start">Start</a>
+      <a href="#" class="info">More Info</a>
+    </figcaption>
+  </figure>
+  <figure class="snip1336"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample69.jpg" alt="sample69" />
+    <figcaption>
+      <img src="./KakaoTalk_20220916_194206696.jpg" alt="profile-sample5" class="profile" />
+      <h2>WEATHER<span><br></span></h2>
+      <p>오늘의 날씨가 궁금하시다고요? <br>이곳에서 바로 날씨를 검색해보세요!</p>
+      <a href="weather.html" class="start">Start</a>
+      <a href="#" class="info">More Info</a>
+    </figcaption>
+  </figure>
   
   <div class="container">
     
-    <p>"용비(용인비서)"로 일정을 관리하세요. <br></br><br>일정 관리와 강력한 비서 서비스를 지금 시작하세요!</p>
-     <div class>
-
-     </div>
-   </div>
-  </div>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br>"용비(용인비서)"로 일정을 관리하세요. <br></br><br>일정 관리와 강력한 비서 서비스를 지금 시작하세요!</p>
+   
   
   <script>
     function accept() { document.getElementById("btn").style.animationName="acceptbtn"; } ;
   </script>
  
-  <div class="footer">copyright (c)
   </div>
 </body>

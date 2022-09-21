@@ -1,0 +1,152 @@
+body {
+  height: 100vh;
+  background:black;
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+}
+
+.Menu {
+  background-color: black;  
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+.Name {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Menu ul il a:hover{
+  background-color: blueviolet;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+il {
+  padding: 0 30px;
+  font-size: 27px;
+}
+
+li {
+  padding: 0 10px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 600px;
+}
+
+.sideleft {
+  background-color: darkred;
+  background: url("https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/01/urbanbrush-20220119103805023843-548x582.jpg") right;
+}
+.center {
+  /* background-color: darkgreen; */
+  background: url("https://www.impactplus.com/hubfs/marketing-chatbot-examples.jpg#keepProtocol") no-repeat bottom;
+}
+.sideright {
+  background-color: darkblue;
+  background: url("https://clipart.me/wp-content/uploads/2011/10/weather_preview.png") bottom;
+}
+.text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  color:white;
+
+
+}
+p button1 {
+  background: transparent;
+  border: 10px solid;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+p button1:hover{
+  color:blueviolet;
+  box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+}
+
+p button2 {
+  background: transparent;
+  border: 10px solid;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+p button2:hover{
+  color:blueviolet;
+  box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+}
+
+p button3 {
+  background: transparent;
+  border: 10px solid;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+p button3:hover{
+  color:blueviolet;
+  box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+}
+
+.container {
+  background:black;
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+p button {
+  animation-duration: 2s;
+}
+
+@keyframes acceptbtn {
+  from {background-color: transparent}
+  to {background-color: red}
+}
+
+

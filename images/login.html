@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="cursor.css">
     <title>용인비서, 용비</title>
 </head>
 <body>
+  <div class="cursor"></div>
+  <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+  </script>
     <div class="Menu">
-        <h1 class="Name"><a href="index.html">용비</a></h1>
+      <div class="font">
+        <h1 class><a href="index.html">YS</a></h1>
+        <span>Yongin Secretary</span>
+      </div>
         <ul>
           <il><a href="index.html">Home</a></il>
           <il><a href="about.html">About</a></il>
@@ -17,6 +37,7 @@
           <il><a href="register.html">SignUp</a></il>
         </ul>
       </div>
+<img src="https://c.wallhere.com/photos/11/e5/1920x1080_px_Iron_man_Iron_Man_2_Tony_Stark-1428915.jpg!d">
 
 <link rel="stylesheet" href="login.css">
 <div class="login-box">
@@ -30,17 +51,26 @@
         <input type="password" name="" required="">
         <label>Password</label>
       </div>
-      <a href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Submit
+      
+      <a href="afterlogin.html">
+    Submit
       </a>
+      <h3>Login Via</h3>
+      <div class="social-login">
+		
+				<div class="social-icons">
+					<a href="#" class="social-login__icon fab fa-instagram"></a>
+					<a href="#" class="social-login__icon fab fa-facebook"></a>
+					<a href="#" class="social-login__icon fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+</div>
     </form>
+    
   </div>
 
   <div class="container2">
-    
+    <br><br><br><br><br><br><br><br><br>
     <p>"용비(용인비서)"로 일정을 관리하세요.<br></br><br>일정 관리와 강력한 비서 서비스를 지금 시작하세요!</p>
   

@@ -1,0 +1,68 @@
+<body>
+<div class="Menu">
+    <link rel="stylesheet" href="style3.css">
+    <div class="font">
+      <h1 class><a href="index.html">YS</a></h1>
+      <span>Yongin Secretary</span>
+    </div>
+    <ul>
+      <il><a href="index.html">Home</a></il>
+      <il><a href="about.html">About</a></il>
+      <il><a href="login.html">Login</a></il>
+      <il><a href="register.html">SignUp</a></il>
+    </ul>
+  </div>
+</body>
+<div class="cursor"></div>
+<script>
+          const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+  cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+  cursor.classList.add("expand");
+
+  setTimeout(() => {
+      cursor.classList.remove("expand");
+  }, 500)
+})
+</script>
+<div class="person">
+    <div class="person-badge">
+      <img class="normal" src="./KakaoTalk_20220916_194206696_01.jpg">
+      
+      
+      <link rel="stylesheet" href="developer.css">
+    </div>
+    <h3>Sung kyu Lee</h3>
+    <strong>Backend Developer<br><br>Lee has over five years’ experience providing strategic direction on DB and backend projects, and is responsible for ensuring clients' projects are delivered on time and within budget.
+      
+    </strong>
+  </div>
+
+  
+    
+  
+  
+  <div class="person">
+    <div class="person-badge">
+      <img class="normal" src="./KakaoTalk_20220916_194206696_02.jpg">
+
+    </div>
+    <h3>Sin young Kim</h3>
+    <strong>Backend Developer<br><br>By combining experience in strategy and management with a solid technical background, Kim provides creative direction to a diverse array of projects.
+    </strong>
+  </div>
+  
+  
+  <div class="person">
+    <div class="person-badge">
+      <img class="normal" src="./KakaoTalk_20220916_194206696.jpg">
+    
+    </div>
+    <h3>Geon hoon Kim</h3>
+    <strong>Frontend Developer<br><br>A 5-year veteran of design and publishing, Kim is a designer who has worked on Yongin University and directed front-end design and marketing. 
+    
+  </div>

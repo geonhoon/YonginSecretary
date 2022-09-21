@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    
+  }
+  
+  .Menu {
+    background-color: Black;  
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+  }
+  
+  .Name {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+  }
+  
+  .Menu ul il a:hover{
+    background-color: blueviolet;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  il {
+    padding: 0 30px;
+    font-size: 27px;
+  }
+
+  li {
+    padding: 0 10px;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 600px;
+  }
+  
+  .sideleft {
+    background-color: darkred;
+    background: url("https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/01/urbanbrush-20220119103805023843-548x582.jpg") right;
+  }
+  .center {
+    /* background-color: darkgreen; */
+    background: url("https://www.impactplus.com/hubfs/marketing-chatbot-examples.jpg#keepProtocol") no-repeat bottom;
+  }
+  .sideright {
+    background-color: darkblue;
+    background: url("https://clipart.me/wp-content/uploads/2011/10/weather_preview.png") bottom;
+  }
+  .text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    color:white;
+
+
+  }
+  p button1 {
+    background: transparent;
+    border: 10px solid;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  p button1:hover{
+    color:blueviolet;
+    box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+  }
+  
+  p button2 {
+    background: transparent;
+    border: 10px solid;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  p button2:hover{
+    color:blueviolet;
+    box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+  }
+  
+  p button3 {
+    background: transparent;
+    border: 10px solid;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  
+  p button3:hover{
+    color:blueviolet;
+    box-shadow:200px 0 0 0 rgba(0,0,0,5) inset;
+  }
+
+  .container {
+    background:black;
+    padding: 120px  0;
+    display:center;
+  }
+  
+
+  
+  p button {
+    animation-duration: 2s;
+  }
+  
+  @keyframes acceptbtn {
+    from {background-color: transparent}
+    to {background-color: red}
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.snip1336 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 92px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #141414;
+  float: left;
+  justify-content: space-around;
+}
+.snip1336 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1336 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.snip1336 figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+}
+.snip1336 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+.snip1336 figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.snip1336 figcaption a:hover {
+  opacity: 1;
+}
+.snip1336 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1336 .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.snip1336 h2 {
+  margin: 0 0 5px;
+  font-weight: 300;
+}
+.snip1336 h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.snip1336 p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.font {
+  text-align: left;
+}
+.font h1 {
+  font-size: 6vw;
+  font-style: italic;
+  color: #fff;
+  position:static;
+}
+
+.font span {
+  font-size: 5vw;
+  text-transform:initial;
+  font-style: italic;
+  color: white;
+  position:absolute;
+  top:45px;
+  left:165px;
+  font-weight: bold;
+  opacity:0.1; 
+}
